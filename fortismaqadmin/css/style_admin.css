@@ -1,0 +1,154 @@
+div#conteudo_administrativo {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 0px auto;
+}
+
+#error {
+	width: 400px;
+	background-color: #FFB7B7;
+	border-top: 2px solid #F00;
+	border-bottom: 2px solid #f00;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+
+
+
+#sucesso {
+	width: 400px;
+	background-color: #B3FFB3;
+	border-top: 2px solid #0C0;
+	border-bottom: 2px solid #0C0;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+
+
+
+#formulario_geral {
+	width: 310px;
+	border: 1px solid black;
+	margin: 20px auto 0px auto;
+	padding: 10px;
+
+}
+
+#formulario_geral label {
+	font-size: 19px;
+	
+}
+
+
+#formulario_geral input {
+	width: 300px;
+	height: 25px;
+	display: block;
+	margin: 0px 0px 10px 0px;
+	
+}
+
+#listar_fotos_backend {
+	width: 1000px;
+	height: auto;
+	border: 1px solid gray;
+	margin: 30px auto 0px auto;
+}
+
+#listar_fotos_backend:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+#listar_fotos_backend figure {
+	background-color: #CCC;
+	width: 154px;
+	float: left;
+	margin: 10px 0px 10px 40px;
+	
+}
+
+#listar_fotos_backend figure figcaption a {
+	color: #F00;
+	font-size: 15px;
+}
+
+#listar_fotos_backend figure figcaption a:hover {
+	color: #B90000;
+	
+}
+
+
+
+#listar_banner_backend {
+	width: 1000px;
+	height: auto;
+	border: 1px solid black;
+	margin: 30px auto 0px auto;
+}
+
+#listar_banner_backend:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+#listar_banner_backend figure {
+	background-color: #CCC;
+	width: 450px;
+	float: left;
+	margin: 10px 0px 20px 30px;
+}
+
+#listar_banner_backend figure figcaption a {
+	color: #F00;
+	font-size: 15px;
+}
+
+#listar_banner_backend figure figcaption a:hover {
+	color: #B90000;
+	
+}
+
+
+#listar_imagem_produtos_backend {
+	width: 1000px;
+	height: auto;
+	border: 1px solid black;
+	margin: 30px auto 0px auto;
+}
+
+#listar_imagem_produtos_backend:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+#listar_imagem_produtos_backend figure {
+	background-color: #CCC;
+	width: 263px;
+	float: left;
+	margin: 10px 0px 20px 50px;
+}
+
+#listar_imagem_produtos_backend figure figcaption a {
+	color: #F00;
+	font-size: 15px;
+}
+
+#listar_imagem_produtos_backend figure figcaption a:hover {
+	color: #B90000;
+	
+}
+
+

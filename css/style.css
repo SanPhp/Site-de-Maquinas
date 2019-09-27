@@ -1,0 +1,706 @@
+@font-face {
+    font-family: 'STEINEMU';
+    src: url('fonts/STEINEMU.eot');
+    src: url('fonts/STEINEMU.eot?#iefix') format('embedded-opentype'),
+         url('fonts/STEINEMU.woff') format('woff'),
+         url('fonts/STEINEMU.ttf') format('truetype'),
+         url('fonts/STEINEMU.svg#STEINEMU') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-size: small;
+	font-family: STEINEMU, sans-serif;
+}
+
+* img {
+	border: none;
+}
+
+body {
+	background: url(../estru/bg_body.png) no-repeat top center;
+	background-color: #F3F1F2;
+	overflow-x: hidden;
+}
+
+
+#all {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto 0px auto;
+	border: 1px solid transparent;
+}
+
+header {
+	width: 1000px;
+	height: 155px;
+	margin: 0px auto 0px auto;
+	
+}
+
+header a img {
+	margin: 30px 0px 0px 15px;
+	float: left;
+}
+
+header #telefone_cabecalho {
+	width: 150px;
+	float: right;
+	background:url(../estru/fone_telefone_cabecalho.png) no-repeat -7px 12px;
+	margin: 6px 50px 0px 0px;
+	text-align: center;
+}
+header #telefone_cabecalho p {
+	color: #666;
+	font-size: 16px;
+	margin: 11px 0px 0px 16px;
+}
+
+header p#palavra  {
+	color: #666;
+	font-size: 14px;
+	margin: 40px 0px 0px 320px;
+	position: absolute;
+	
+}
+
+header ul {
+	width: 700px;
+	list-style: none;
+	float: right;
+	margin: 27px -20px 0px 0px;
+}
+
+header ul li {
+	display: inline;
+	background: url(../estru/bg_menu_normal.png) no-repeat top center;
+	padding: 15px 22px 15px 22px;
+	margin: 0px -10px 0px -10px;
+}
+
+header ul li:hover {
+	background: url(../estru/bg_menu_activo.png) no-repeat top center;	
+}
+header ul li.active {
+	background: url(../estru/bg_menu_activo.png) no-repeat top center;
+	
+}
+
+header ul li.first_menu {
+	padding: 15px 33px 15px 27px;
+}
+
+header ul li.four_menu {
+	padding: 15px 25px 15px 32px;
+}
+
+header ul li a {
+	display: inline;
+	font-size: 22px;
+	text-decoration: none;
+	position: relative;
+	top: 5px;
+	color: #FF9933;
+}
+
+header ul li a:hover {
+	color: #000;
+}
+
+header ul li a.active {
+	color: #000;
+}
+
+
+div#banner {
+	width: 983px;
+	height: 251px;
+	position: relative;
+	border: 1px solid transparent;
+	margin: 20px auto 0px auto;
+	background:url(../estru/bg_banner.png) no-repeat top center;
+}
+
+div#banner p {
+	margin: 20px 0px 0px 18px;
+	font-size: 14px;
+	text-shadow: 1px 2px 2px #F5811E;
+}
+
+div#conteudo_index {
+	width: 1000px;
+	height: 427px;
+	background: url(../estru/bg_conteudo_index.png) no-repeat top center;
+	margin: 20px auto 0px auto;
+}
+
+div#conteudo_index .melhor {
+	font-size: 19px;
+	color: #fff;
+	position: relative;
+	top: 20px;
+	left: 231px;
+}
+
+div#conteudo_index .mao {
+	font-size: 17px;
+	color: #fff;
+	position: relative;
+	top: 83px;
+	left: 231px;
+}
+div#conteudo_index .pecas {
+	font-size: 16px;
+	color: #fff;
+	position: relative;
+	top: 143px;
+	left: 165px;
+}
+
+div#conteudo_index .revisao {
+	font-size: 19px;
+	color: #fff;
+	position: relative;
+	top: -30px;
+	left: 166px;
+	text-align: center;
+}
+
+div#conteudo_index .capacitacao {
+	font-size: 19px;
+	color: #fff;
+	position: relative;
+	top: -85px;
+	left: 390px;
+	text-align: center;
+}
+
+div#conteudo_index .locacao {
+	font-size: 24px;
+	color: #fff;
+	position: relative;
+	top: 10px;
+	left: 350px;
+	text-align: center;
+}
+
+
+#envolve_footer {
+	width: 100%;
+	height: 195px;
+	background: url(../estru/bg_footer.png) no-repeat top center;
+	margin: 30px 0px 0px 0px;
+	
+}
+
+footer {
+	width: 1000px;
+	height: 195px;
+	margin: 0px auto 0px auto;
+	border: 1px solid transparent;
+}
+
+footer ul {
+	width: 509px;
+	list-style: none;
+	margin: 3px auto 0px auto;
+}
+
+footer ul li {
+	display: inline;
+}
+
+footer ul li a {
+	display: inline;
+	color: #E6E6E6;
+	text-decoration: none;
+	font-size: 19px;
+	margin: 0px 0px 0px 15px;
+}
+
+footer ul li a:hover {
+	color: #FD6602;
+}
+
+footer ul li a.active {
+	color: #FD6602;
+}
+
+footer img {
+	width: 151px;
+	height: 60px;
+	float: left;
+	margin: 20px 0px 0px 80px;
+}
+
+footer img#social {
+	width: 33px;
+	height: 33px;
+	float: left;
+	margin: 40px 0px 0px 10px;
+}
+
+footer p.peca {
+	width: 290px;
+	float: left;
+	font-size: 16px;
+	margin: 95px 0px 0px -200px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+footer img.logo_agencia {
+	width: auto;
+	height: auto;
+	float: left;
+	margin: 129px 0px 0px -28px;
+}
+
+footer .rua {
+	font-size: 14px;
+	float: left;
+	margin: 28px 0px 0px -270px;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+footer p.compras {
+	font-size: 14px;
+	float: left;
+	margin: 25px 0px 0px -20px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+}
+
+footer .compras span {
+	color: #D54500;
+	font-size: 14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+footer img.facebook {
+	width: auto;
+	height: auto;
+	float: left;
+	margin: 35px 0px 0px 50px;
+}
+
+/*----------EMPRESA-----------*/
+
+#conteudo_empresa {
+	width: 1000px;
+	height: auto;
+	background: url(../estru/bg_empresa.png) no-repeat top center;
+	margin: 20px 0px 0px 0px;
+	border: 1px solid transparent;
+}
+
+#conteudo_empresa h1 {
+	font-size: 63px;
+	color: #FF9933;
+	margin: 40px 0px 0px 490px;
+	font-weight: lighter;
+}
+
+#conteudo_empresa p {
+	font-size: 20px;
+	width: 570px;
+	margin: 30px 0px 0px 370px;
+	text-align: justify;
+	color: #373435;
+}
+#conteudo_empresa p#text2 {
+	font-size: 20px;
+	width: 929px;
+	margin: 0px 0px 0px 10px;
+	text-align: justify;
+	color: #373435;
+}
+
+div#bg_empresa_bottom {
+	width: 768px;
+	height: 294px;
+	background: url(../estru/bg_empresa_bottom.png) no-repeat center center;
+	margin: 50px 0px 0px 0px;
+}
+
+
+/*-----------SERVICOS----------*/
+
+#conteudo_servicos {
+	width: 1000px;
+	height: 700px;
+	background: url(../estru/bg_servicos.png) no-repeat top center;
+	margin: 20px 0px 51px 0px;
+}
+
+#conteudo_servicos:after {
+	content: url(../estru/bg_line_servico.png);
+	position: relative;
+	top: -110px;
+	left: -452px;
+}
+
+#conteudo_servicos h1 {
+	font-size: 63px;
+	color: #FF9933;
+	position: relative;
+	left: 530px;
+	top: 30px;
+	font-weight: lighter;
+}
+
+#conteudo_servicos p {
+	color: #4D4D4D;
+	width: 320px;
+	font-size: 18px;
+	margin: 40px 0px 0px 490px;
+}
+
+#bg_conteudo_servico {
+	width: 1000px;
+	height: 545px;
+	background: url(../estru/bg_servicos_demais.png) no-repeat 0px 70px;
+	margin: 62px 0px 0px 0px;
+}
+
+
+#bg_conteudo_servico #logo_servicos {
+	float: left;
+	margin: 130px 0px 0px 130px;
+}
+
+#bg_conteudo_servico p#vendas {
+	float: left;
+	font-size: 26px;
+	position: relative;
+	top: -191px;
+	left: -110px;
+	font-weight: lighter;
+}
+
+
+#bg_conteudo_servico p#maoo {
+	float: left;
+	font-size: 26px;
+	position: relative;
+	top: -191px;
+	left: -108px;
+	font-weight: lighter;
+}
+
+#bg_conteudo_servico p#revisao {
+	width: 550px;
+	float: left;
+	font-size: 24px;
+	position: relative;
+	top: -172px;
+	left: -110px;
+	font-weight: lighter;
+}
+
+#bg_conteudo_servico p#pecass {
+	float: left;
+	width: 410px;
+	float: left;
+	font-size: 25px;
+	position: relative;
+	top: -158px;
+	left: -150px;
+}
+
+#bg_conteudo_servico p#capacitacao {
+	float: left;
+	width: 480px;
+	float: left;
+	font-size: 24px;
+	position: relative;
+	top: -147px;
+	left: -250px;
+	
+}
+
+#bg_conteudo_servico p#locacaoo {
+	float: left;
+	width: 450px;
+	float: left;
+	font-size: 24px;
+	position: relative;
+	top: -133px;
+	left: -312px;
+}
+
+
+/*-------------GALERIA-------------*/
+
+
+#conteudo_galeria {
+	width: 1000px;
+	height: auto;
+	background: url(../estru/bg_galeria.png) no-repeat top center;
+	margin: 20px 0px 0px 0px;
+}
+
+
+#conteudo_galeria h1 {
+	font-size: 63px;
+	color: #FF9933;
+	position: relative;
+	left: 530px;
+	top: 30px;
+	font-weight: lighter;
+}
+
+#conteudo_galeria p {
+	color: #4D4D4D;
+	width: 320px;
+	font-size: 18px;
+	margin: 40px 0px 0px 490px;
+}
+
+
+#galeria {
+	width: 1000px;
+	height: 500px;
+	margin: 190px auto 0px auto;
+	overflow: auto;
+}
+#galeria:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+#galeria figure {
+	width: 130px;
+	height: 113px;
+	background-color: #F39632;
+	padding: 19px;
+	box-shadow: 2px 2px 10px #A8A8A8;
+	float: left;
+	margin: 0px 26px 30px 2px;
+}
+
+/*--------------PRODUTOS-------------*/
+
+#conteudo_produtos {
+	width: 1000px;
+	height: auto;
+	background: url(../estru/bg_produtos.png) no-repeat top center;
+	margin: 20px 0px 0px 0px;
+}
+
+
+#conteudo_produtos h1 {
+	font-size: 63px;
+	color: #FF9933;
+	position: relative;
+	left: 530px;
+	top: 30px;
+	font-weight: lighter;
+}
+
+#conteudo_produtos p {
+	color: #4D4D4D;
+	width: 320px;
+	font-size: 18px;
+	margin: 40px 0px 0px 490px;
+}
+
+
+#produtos {
+	width: 1000px;
+	height: 500px;
+	margin: 190px auto 0px auto;
+	overflow: auto;
+}
+ 
+#produtos:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0px;
+	overflow: hidden;
+}
+
+#produtos figure {
+	width: 259px;
+	height: 147px;
+	background-color: #FE6A04;
+	padding: 16px 19px 16px 19px;
+	box-shadow: 2px 2px 10px #A8A8A8;
+	float: left;
+	margin: 0px 25px 30px 5px;
+}
+
+
+/*---------CONTATO----------*/
+
+#conteudo_contato #sucesso {
+	width: 400px;
+	background-color: #B3FFB3;
+	border-top: 2px solid #0C0;
+	border-bottom: 2px solid #0C0;
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+}
+
+
+#conteudo_contato {
+	width: 1000px;
+	height: auto;
+	background: url(../estru/bg_contato.png) no-repeat top center;
+	margin: 20px 0px 0px 0px;
+}
+
+#conteudo_contato:after {
+	content: url(../estru/bg_line_contato.png);
+	position: relative;
+	top: -416px;
+	left: -450px;
+}
+
+
+#conteudo_contato h1 {
+	font-size: 63px;
+	color: #FF9933;
+	position: relative;
+	left: 530px;
+	top: 30px;
+	font-weight: lighter;
+}
+
+#conteudo_contato p {
+	color: #4D4D4D;
+	width: 445px;
+	font-size: 15px;
+	margin: 40px 0px 0px 420px;
+	text-align: center;
+}
+
+#contato {
+	width: 1000px;
+	height: auto;
+	margin: 150px auto 0px auto;
+	background: url(../estru/bg_contato_conteudo.png) no-repeat top left;
+}
+
+#form_contato {
+	width: 380px;
+}
+
+#contato input {
+	width: 280px;
+	height: 20px;
+	display: block;
+	margin: 2px 0px 14px 72px;
+	border: 1px solid transparent;
+	background-color: transparent;
+	outline: none;
+}
+
+#contato input#cidade {
+	width: 125px;
+	height: 20px;
+	display: block;
+	margin: 0px 0px 12px 72px;
+	float: left;
+}
+
+#contato input#estado {
+	width: 93px;
+	height: 20px;
+	display: block;
+	position: relative;
+	left: 58px;
+}
+
+#contato textarea {
+	width: 357px;
+	height: 66px;
+	display: block;
+	margin: 33px 0px 0px 10px;
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+
+#contato input#submit {
+	width: 112px;
+	height: 31px;
+	margin: 35px 0px 0px 260px;
+}
+
+#contato p#fale {
+	width: 270px;
+	text-align: left;
+	margin: 0px;
+	font-size: 14px;
+	float: right;
+	margin: -295px 310px 0px 0px;
+	color: #1A1A1A;
+}
+#contato p#fale span {
+	text-align: left;
+	margin: 0px;
+	font-size: 16px;
+	color: #FF6600;
+}
+
+#contato p#horario {
+	width: 270px;
+	text-align: left;
+	margin: 0px;
+	font-size: 14px;
+	float: right;
+	margin: -180px 270px 0px 0px;
+	color: #1A1A1A;
+}
+
+#contato p#quatro {
+	width: 270px;
+	text-align: left;
+	margin: 0px;
+	font-size: 14px;
+	float: right;
+	margin: -123px 270px 0px 0px;
+	color: #FF6600;
+}
+
+#contato p#compra_email {
+	width: 270px;
+	text-align: left;
+	margin: 0px;
+	font-size: 14px;
+	float: right;
+	margin: -81px 270px 0px 0px;
+	color: #1A1A1A;
+}
+
+#contato p#como {
+	width: 100px;
+	text-align: left;
+	margin: 0px;
+	font-size: 16px;
+	float: right;
+	margin: -296px 125px 0px 0px;
+	color: #FF6600;
+}
+
+#contato_mapa {
+	width: 226px;
+	height: 238px;
+	border: 1px solid #999;
+	float: right;
+	margin: -280px 0px 0px 0px;
+	border-radius: 10px;
+}
+
+#contato_mapa iframe {
+	border-radius: 10px;
+}
